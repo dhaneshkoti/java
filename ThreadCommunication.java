@@ -78,3 +78,21 @@ public class Main{
 		t2.join();
 	}
 }
+input.txt
+Hello! Lets start programming
+
+test1.txt
+CodeTantra
+Start your coding in 60 mins
+
+test2.txt
+JAVA is an Object Oriented Programming Language
+It is invented by James Gosling
+
+input1.txt
+Hello there!
+How are you?
+
+test3.txt
+Hydrofoil is an underwater fin with a flat or curved wing-like surface.
+Ships that use hydrofoils,or foils, are called hydrofoils.
