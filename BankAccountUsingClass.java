@@ -55,3 +55,21 @@ public static void main(String args[])
 	name=s.next();
 	System.out.print("account number: ");
 	no=s.nextLong();
+	System.out.print("account type: ");
+	type=s.next();
+	System.out.print("initial balance: ");
+	bal=s.nextDouble();
+	BankAccount account=new BankAccount(name,no,type,bal);
+	System.out.print("amount to deposit: ");
+	depositAmount=s.nextDouble();
+	account.deposit(depositAmount);
+	System.out.print("amount to withdraw: ");
+	withdrawAmount=s.nextDouble();
+	account.withdraw(withdrawAmount);
+	System.out.println("Account Details:");
+    
+    account.displayAccountDetails();
+
+}
+	
+}
